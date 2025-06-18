@@ -1,0 +1,83 @@
+"use client";
+
+import Footer from "../../../components/Footer";
+import NavBar from "../../../components/NavBar";
+import Marquee from "react-fast-marquee";
+import AccordionWithImage from "../../../components/AccordionWithImage";
+
+export default function Community() {
+  return (
+    <>
+      <NavBar />
+      <div className="flex flex-col-reverse bg-[url(/images/community/township-langley.png)] relative w-full h-[400px] md:h-[800px] bg-cover">
+        <h1 className="text-white text-4xl md:text-6xl font-semibold font-['Lora'] mb-8 ml-4 shadow">Willoughby, Langley</h1>
+      </div>
+      <main className="flex flex-col justify-center items-center my-20 gap-20">
+        <section className="flex flex-col justify-center items-center gap-6">
+          <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
+            Your Community.
+          </h1>
+          <p className="justify-center text-[#3D6663] text-2xl font-normal text-center font-['Poppins']">
+            Enjoy a community that places Willoughby’s best—sports, <br />{" "}
+            nature, dining, and shopping—right at your doorstep.
+          </p>
+          <AccordionWithImage />
+        </section>
+        <section className="flex flex-col justify-center items-center gap-6">
+          <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
+            Active Living, Right at Your Doorstep.
+          </h1>
+          <p className="justify-center text-[#3D6663] text-2xl font-normal text-center font-['Poppins'] w-6/12">
+            Just minutes away, the expanding Langley Events Centre and the
+            upcoming Smith Athletic Park will offer ice hockey, lacrosse,
+            tournaments, and outdoor fields—bringing sports, recreation, and
+            community events right to your neighborhood.
+          </p>
+          <Marquee 
+            speed={50}
+            pauseOnHover={true}
+          >
+            <div className="flex flex-row gap-2 items-center justify-center">
+              <img
+                src="/images/community/1eec1e005cc3bad07af9a229ac925e1f660dc6f6.png"
+                alt="Langley Events Centre"
+                className="w-[400px] h-[500px] object-cover ml-2"
+              />
+              <img
+                src="/images/community/6df751f7f277d9b96593da4c1ff131b7af4f8dac.png"
+                alt="Township of Langley"
+                className="w-[400px] h-[500px] object-cover"
+              />
+              <img
+                src="/images/community/eec2b79f1706abf3334865561b925d2973bd2b69.png"
+                alt="Smith Athletic Park"
+                className="w-[400px] h-[500px] object-cover"
+              />
+              <img
+                src="/images/community/donna.png"
+                alt="Donna Gabriel Robins Elementary"
+                className="w-[400px] h-[500px] object-cover"
+              />
+              <img
+                src="/images/community/towncentre.png"
+                alt="Willoughby Town Centre"
+                className="w-[400px] h-[500px] object-cover"
+              />
+              <img
+                src="/images/community/willowbrook.png"
+                alt="Willowbrook Shopping Centre"
+                className="w-[400px] h-[500px] object-cover"
+              />
+              <img
+                src="/images/community/york.png"
+                alt="Yorkson Village"
+                className="w-[400px] h-[500px] object-cover"
+              />
+            </div>
+          </Marquee>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}

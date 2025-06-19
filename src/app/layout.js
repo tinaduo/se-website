@@ -3,12 +3,14 @@ import "./globals.css";
 
 const lora = Lora({
   variable: "--font-lora",
-  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
 });
 
 const poppins = Poppins({
   variable: "--font-poppins",
-  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
 });
 
 export default function RootLayout({ children }) {

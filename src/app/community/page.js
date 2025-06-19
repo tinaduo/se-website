@@ -43,44 +43,45 @@ export default function Community() {
             community events right to your neighborhood.
           </p>
           <Marquee 
+            className="w-screen"
             speed={50}
             pauseOnHover={true}
           >
-            <div className="flex flex-row gap-2 items-center justify-center">
+            <div className="flex flex-row gap-2 items-center justify-center w-fit">
               <img
                 src="/images/community/1eec1e005cc3bad07af9a229ac925e1f660dc6f6.png"
                 alt="Langley Events Centre"
-                className="w-[400px] h-[500px] object-cover ml-2"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover ml-2"
               />
               <img
                 src="/images/community/6df751f7f277d9b96593da4c1ff131b7af4f8dac.png"
                 alt="Township of Langley"
-                className="w-[400px] h-[500px] object-cover"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover"
               />
               <img
                 src="/images/community/eec2b79f1706abf3334865561b925d2973bd2b69.png"
                 alt="Smith Athletic Park"
-                className="w-[400px] h-[500px] object-cover"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover"
               />
               <img
                 src="/images/community/donna.png"
                 alt="Donna Gabriel Robins Elementary"
-                className="w-[400px] h-[500px] object-cover"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover"
               />
               <img
                 src="/images/community/towncentre.png"
                 alt="Willoughby Town Centre"
-                className="w-[400px] h-[500px] object-cover"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover"
               />
               <img
                 src="/images/community/willowbrook.png"
                 alt="Willowbrook Shopping Centre"
-                className="w-[400px] h-[500px] object-cover"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover"
               />
               <img
                 src="/images/community/york.png"
                 alt="Yorkson Village"
-                className="w-[400px] h-[500px] object-cover"
+                className="w-[200px] h-[300px] md:w-[400px] md:h-[500px] object-cover"
               />
             </div>
           </Marquee>

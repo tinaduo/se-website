@@ -11,11 +11,12 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="flex w-screen flex-col sm:flex-row bg-[#3D6663] font-['Poppins'] px-8 py-4 justify-between relative z-40">
+      <nav className="flex w-screen flex-row bg-[#3D6663] font-['Poppins'] px-8 py-4 justify-between relative z-40">
         <a
+          className="w-fit flex items-center justify-start"
           href="/">
         <img
-          className="w-48 h-12 sm:w-64 sm:h-16"
+          className="w-36 h-auto sm:w-64 sm:h-16"
           src="/images/svg/seventy-eight-logo.svg"
           alt="Seventy-Eight Collection Logo"
         />

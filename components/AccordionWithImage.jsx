@@ -88,9 +88,9 @@ export default function AccordionWithImage() {
       : "/images/community/map/full.png";
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-start gap-20 w-full">
+    <div className="flex flex-col xl:flex-row justify-center items-start gap-20 w-full">
       {/* accordion */}
-      <div className="w-[400px]">
+      <div className="w-screen xl:w-[400px]">
         {accordionData.map((item, index) => {
           const isActive = activeIndex === index;
             return (
@@ -126,7 +126,7 @@ export default function AccordionWithImage() {
           </div>
 
           {/* Image */}
-      <div className="w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] relative">
+      <div className="w-screen h-[400px] xl:w-[600px] xl:h-[600px] relative">
         <Image
           key={activeImage}
           src={activeImage}

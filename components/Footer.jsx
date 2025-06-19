@@ -1,8 +1,8 @@
 import React from "react";
 
 const Footer = () => (
-  <footer className="flex w-screen flex-col sm:flex-row bg-[#3D6663] bg-cover bg-no-repeat gap-y-16 px-8 py-10 font-['Poppins'] justify-between">
-    <div className="flex flex-col sm:flex-row gap-x-12 gap-y-12">
+  <footer className="flex w-screen flex-col md:flex-row bg-[#3D6663] bg-cover bg-no-repeat gap-y-16 px-8 py-10 font-['Poppins'] justify-between">
+    <div className="flex flex-col md:flex-row gap-x-12 gap-y-12">
       <section>
         <h3 className="justify-start text-white text-4xl font-medium uppercase mb-4">
           Visit the site

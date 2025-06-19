@@ -18,16 +18,16 @@ export default function Home() {
       <NavBar />
       <FadeCarousel />
       <main className="flex flex-col justify-start items-center gap-64 my-64">
-        <section className="flex flex-col lg:flex-row justify-center items-cente gap-11">
+        <section className="flex flex-col 2xl:flex-row justify-center items-center gap-11">
           <img
-            className="w-full h-full sm:w-[800px] sm:h-fit"
+            className="w-screen 2xl:w-[800px] md:h-fit"
             src="/images/drinks.png"
           />
-          <div className="flex flex-col justify-center items-start gap-12">
+          <div className="flex flex-col justify-center items-start gap-12 mx-6">
             <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
-              Together Starts Here. Make It Yours.
+              Together Starts Here. <br /> Make It Yours.
             </h1>
-            <p className="justify-center text-[#3D6663] text-2xl font-normal font-['Poppins']">
+            <p className="justify-center text-[#3D6663] text-2xl font-normal font-['Poppins'] md:mr-8">
               Imagine a place where every day feels like it was made just for
               you and those you love. At The Seventy-Eight Collection, we
               believe a home should be the heart of your life—a place filled

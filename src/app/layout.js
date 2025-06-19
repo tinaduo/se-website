@@ -5,12 +5,14 @@ const lora = Lora({
   variable: "--font-lora",
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
+  subsets: ["latin"],
 });
 
 const poppins = Poppins({
   variable: "--font-poppins",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
+  subsets: ["latin"],
 });
 
 export default function RootLayout({ children }) {

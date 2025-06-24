@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
 import FadeCarousel from "../../components/FadeCarousel";
+import InterestForm from "../../components/InterestForm";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,6 +15,19 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/png" href="/selogo.png" />
+
+         {/* Open Graph / Facebook */}
+        <meta property="og:title" content="The Seventy-Eight Collection | Langley Homes for Sale" />
+        <meta
+          property="og:description"
+          content="Live in Langley’s sought-after Willoughby neighborhood. Explore modern homes close to schools, shopping, and parks."
+        />
+        <meta property="og:image" content="images/renders/duplex-day.jpg" />
+        <meta property="og:url" content="https://www.seventyeightcollection.ca/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="The Seventy-Eight Collection" />
+
+         {/* Twitter */}
       </header>
       <NavBar />
       <FadeCarousel />
@@ -74,79 +88,8 @@ export default function Home() {
             parks, and transit. <br />
             Get exclusive updates and launch info.
           </p>
-          <div className="flex flex-col justify-center items-center my-32">
-            <form className="flex flex-col ">
-              <div className="flex flex-col sm:flex-row gap-4">
-                <div>
-                  <label
-                    htmlFor="firstName"
-                    className="block text-gray-700 text-lg font-medium mb-1 mt-4"
-                  >
-                    First Name <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="firstName"
-                    name="firstName"
-                    className="w-full border-b-2 border-gray-400 focus:outline-none focus:border-teal-700 transition duration-300 bg-transparent text-gray-900 py-1"
-                    required
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="lastName"
-                    className="block text-gray-700 text-lg font-medium mb-1 mt-4"
-                  >
-                    Last Name <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="lastName"
-                    name="lastName"
-                    className="w-full border-b-2 border-gray-400 focus:outline-none focus:border-teal-700 transition duration-300 bg-transparent text-gray-900 py-1"
-                    required
-                  />
-                </div>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-gray-700 text-lg font-medium mb-1 mt-4"
-                  >
-                    Email <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full border-b-2 border-gray-400 focus:outline-none focus:border-teal-700 transition duration-300 bg-transparent text-gray-900 py-1"
-                    required
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="phone"
-                    className="block text-gray-700 text-lg font-medium mb-1 mt-4"
-                  >
-                    Phone <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full border-b-2 border-gray-400 focus:outline-none focus:border-teal-700 transition duration-300 bg-transparent text-gray-900 py-1"
-                    required
-                  />
-                </div>
-              </div>
-              <button
-                type="submit"
-                className="px-6 py-1 bg-[#FBC049] w-fit rounded-full justify-center items-center text-white text-2xl sm:text-3xl font-['Poppins'] uppercase"
-              >
-                register my interest
-              </button>
-            </form>
+          <div className="flex flex-col justify-center items-center my-12">
+            <InterestForm />
           </div>
         </section>
       </main>

@@ -2,6 +2,7 @@
 
 import Footer from "../../../../components/Footer";
 import NavBar from "../../../../components/NavBar";
+import InterestForm from "../../../../components/InterestForm";
 
 export default function Rowhouse() {
   return (
@@ -66,6 +67,17 @@ export default function Rowhouse() {
               </p>
             </div>
           </div>
+        </section>
+
+        <section className="flex flex-col justify-center items-center gap-16 mb-24">
+          <h1 className="text-[#3D6663] text-6xl font-semibold font-['Lora'] pb-12">
+            Interested in this residence?
+          </h1>
+          <p className="text-center justify-start text-[#3D6663] text-base font-normal font-['Poppins']">
+            Please fill out the form below to register your interest in this
+            residence. We will get back to you as soon as possible.
+          </p>
+          <InterestForm />
         </section>
 
         <section className="flex flex-col mx-6">
@@ -187,14 +199,14 @@ export default function Rowhouse() {
                 <li>5 years for building envelope.</li>
                 <li>10 years for structural defects.</li>
               </ul>
-              <a
+              <a 
                 href="files/Seventy-Eight_Brochure_Post.pdf"
                 download="Seventy-Eight_Brochure_Post.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-1 bg-[#FBC049] rounded-full justify-center items-center text-white text-2xl sm:text-3xl font-['Poppins'] uppercase w-fit mt-4"
               >
-                Download Brochure
+              Download Brochure
               </a>
             </div>
           </div>

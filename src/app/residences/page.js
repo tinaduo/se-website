@@ -37,7 +37,7 @@ export default function Residences() {
             living meets connected, suburban charm.
           </p>
         </div>
-        <section className="flex flex-col 2xl:flex-row justify-center items-center my-20 gap-20">
+        <section className="flex flex-col 2xl:flex-row justify-center items-center my-20 mx-6 gap-20">
           <div className="flex flex-col gap-2">
             <img
               src="/images/renders/duplex-day.jpg"

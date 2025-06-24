@@ -2,6 +2,7 @@
 
 import Footer from "../../../../components/Footer";
 import NavBar from "../../../../components/NavBar";
+import InterestForm from "../../../../components/InterestForm";
 
 export default function Duplex() {
   return (
@@ -66,6 +67,17 @@ export default function Duplex() {
               </p>
             </div>
           </div>
+        </section>
+
+        <section className="flex flex-col justify-center items-center gap-16 mb-24">
+          <h1 className="text-[#3D6663] text-6xl font-semibold font-['Lora'] pb-12">
+            Interested in this residence?
+          </h1>
+          <p className="text-center justify-start text-[#3D6663] text-base font-normal font-['Poppins']">
+            Please fill out the form below to register your interest in this
+            residence. We will get back to you as soon as possible.
+          </p>
+          <InterestForm />
         </section>
 
         <section className="flex flex-col mx-6">

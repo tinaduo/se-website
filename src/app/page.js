@@ -2,7 +2,6 @@ import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
 import FadeCarousel from "../../components/FadeCarousel";
 import InterestForm from "../../components/InterestForm";
-import Head from "next/head";
 
 export default function Home() {
   return (
@@ -26,8 +25,7 @@ export default function Home() {
         <meta property="og:url" content="https://www.seventyeightcollection.ca/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="The Seventy-Eight Collection" />
-
-         {/* Twitter */}
+        
       </header>
       <NavBar />
       <FadeCarousel />
@@ -37,11 +35,11 @@ export default function Home() {
             className="w-screen 2xl:w-[800px] md:h-fit"
             src="/images/drinks.png"
           />
-          <div className="flex flex-col justify-center items-start gap-12 mx-6">
+          <div className="flex flex-col justify-center items-start gap-6 md:gap-12 mx-6">
             <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
               Together Starts Here. <br /> Make It Yours.
             </h1>
-            <p className="justify-center text-[#3D6663] text-2xl font-normal font-['Poppins'] md:mr-8">
+            <p className="justify-center text-[#3D6663] text-lg md:text-2xl font-normal font-['Poppins'] md:mr-8">
               Imagine a place where every day feels like it was made just for
               you and those you love. At The Seventy-Eight Collection, we
               believe a home should be the heart of your life—a place filled
@@ -57,14 +55,14 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className="flex flex-col justify-center items-center mx-6 gap-11">
+        <section className="flex flex-col justify-center items-center mx-6 gap-6 md:gap-12">
           <img className="w-full h-full" src="/images/renders/duplex-day.jpg" />
           <div className="flex flex-col justify-center items-start md:flex-row gap-12">
             <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
               Quiet Corners of Willoughby.
             </h1>
             <div className="flex flex-col gap-11 md:ml-20">
-              <p className="justify-center text-[#3D6663] text-2xl font-normal font-['Poppins']">
+              <p className="justify-center text-[#3D6663] text-lg md:text-2xl font-normal font-['Poppins']">
                 Experience peaceful living nestled within the vibrant Willoughby
                 community. Each home is thoughtfully crafted to bring
                 tranquility into daily life, with spaces that offer calm amid

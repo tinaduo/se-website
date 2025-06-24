@@ -2,13 +2,12 @@
 
 import Footer from "../../../components/Footer";
 import NavBar from "../../../components/NavBar";
-import Marquee from "react-fast-marquee";
-import AccordionWithImage from "../../../components/AccordionWithImage";
+import InterestForm from "../../../components/InterestForm";
 
 export default function Community() {
   return (
     <>
-    <header>
+      <header>
         <title>Community | The Seventy-Eight Collection</title>
         <meta
           name="description"
@@ -18,6 +17,21 @@ export default function Community() {
         <link rel="icon" type="image/png" href="/selogo.png" />
       </header>
       <NavBar />
+      <main className="flex flex-col justify-center items-center my-20 gap-20">
+      <section className="flex flex-col justify-center items-center mx-6 gap-6">
+        <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
+          Register Today
+        </h1>
+        <p className="justify-center text-[#3D6663] text-2xl font-normal text-center font-['Poppins']">
+          31 modern homes in the heart of Willoughby. Close to schools, shops,
+          parks, and transit. <br />
+          Get exclusive updates and launch info.
+        </p>
+        <div className="flex flex-col justify-center items-center my-12">
+          <InterestForm />
+        </div>
+      </section>
+      </main>
       <Footer />
     </>
   );

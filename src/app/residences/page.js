@@ -23,13 +23,13 @@ export default function Residences() {
         <img
           src="/images/renders/rowhouse-day.jpg"
           alt="Rowhomes and Duplexes"
-          className="flex relative w-full h-[400px] md:h-[800px]"
+          className="flex relative w-full h-[400px] md:h-[800px] object-cover"
         />
         <div className="bg-[#3D6663] p-12 md:p-24">
           <h1 className="text-white text-center text-4xl md:text-6xl font-semibold font-['Lora'] mb-6">
             Welcome to the Seventy-Eight Collection
           </h1>
-          <p className="text-center text-white text-2xl font-normal font-['Poppins']">
+          <p className="text-center text-white text-lg md:text-2xl font-normal font-['Poppins']">
             The Seventy-Eight Collection is a curated community of 31 homes in
             Langley’s vibrant Willoughby neighborhood—featuring 15 single-family
             homes, 8 rowhomes, and 8 duplexes. Enjoy top-rated schools, shops,
@@ -89,7 +89,7 @@ export default function Residences() {
             The Heart of Homes.
           </h1>
           <div className="flex flex-col gap-11">
-            <p className="justify-center text-[#3D6663] text-2xl font-normal font-['Poppins'] max-w-[1500px] md:ml-20">
+            <p className="justify-center text-[#3D6663] text-lg md:text-2xl font-normal font-['Poppins'] max-w-[1500px] md:ml-20">
               Discover spaces designed to be the true heart of your home, where
               every detail brings comfort and elegance together. Our
               open-concept layouts maximize both space and light, with kitchens
@@ -117,7 +117,7 @@ export default function Residences() {
             <h3 className="self-stretch justify-start text-[#FBC048] text-3xl font-bold font-['Poppins']">
               WELCOME HOME
             </h3>
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                 Stylish Color Palettes: Choose between Willow, a serene green,
                 and Whisper, a calming blue, to personalize your space.
@@ -145,7 +145,7 @@ export default function Residences() {
             <h3 className="self-stretch justify-start text-[#FBC048] text-3xl font-bold font-['Poppins']">
               WELCOME HOME
             </h3>
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                 Connects you to sports, dining, shopping, and the beautiful
                 nature of Willoughby.
@@ -156,7 +156,7 @@ export default function Residences() {
             </ul>
           </div>
           <div className="flex flex-col gap-4">
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                 Experience a lifestyle where your to-do list doesn’t involve parking meters—welcome to effortless convenience.
               </li>
@@ -173,7 +173,7 @@ export default function Residences() {
             <h3 className="self-stretch justify-start text-[#FBC048] text-3xl font-bold font-['Poppins']">
               GOURMET KITCHEN
             </h3>
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                 Modern pendant lights over the kitchen island.
               </li>
@@ -201,7 +201,7 @@ export default function Residences() {
             </ul>
           </div>
           <div className="flex flex-col gap-4">
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                   Stainless-steel dishwasher with hidden controls.
                 </li>
@@ -215,7 +215,7 @@ export default function Residences() {
             <h3 className="self-stretch justify-start text-[#FBC048] text-3xl font-bold font-['Poppins']">
               MODERN FIXTURES AND FINISHES
             </h3>
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                 Spacious bathroom vanities with porcelain under-mount sinks.
               </li>
@@ -229,7 +229,7 @@ export default function Residences() {
             <h3 className="self-stretch justify-start text-[#FBC048] text-3xl font-bold font-['Poppins']">
               PEACE OF MIND
             </h3>
-            <ul className="list-disc pl-6 text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
+            <ul className="list-disc pl-6 text-lg md:text-2xl font-['Poppins'] text-[#3D6663] leading-snug">
               <li>
                 All homes are covered by the Travelers 2-5-10 Year Warranty Program:
               </li>
@@ -248,14 +248,14 @@ export default function Residences() {
               download="Seventy-Eight_Brochure_Post.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-1 bg-[#FBC049] rounded-full justify-center items-center text-white text-2xl sm:text-3xl font-['Poppins'] uppercase w-fit mt-4"
+              className="px-6 py-1 bg-[#FBC049] rounded-full justify-center items-center text-white text-lg md:text-2xl font-['Poppins'] uppercase w-fit mt-4"
             >
             Download Brochure
             </a>
           </div>
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center mx-16 py-12 gap-20">
+      <section className="flex flex-col justify-center items-center py-12 gap-20 mx-6">
         <p className="text-center justify-start text-[#3D6663] text-base font-normal font-['Poppins']">The developer reserves the right to make changes and modifications to the building design, elevations, dimensions, specifications, features and prices without prior notifications. Decks, patios, stairs, and windows may vary based on site conditions. All sizes and dimensions are approximate and based on architectural measurements. Reverse and/or mirror plans occur throughout the development. Please see disclosure statement for specific offering once available. E. & O.E. </p>
       </section>
       <Footer />

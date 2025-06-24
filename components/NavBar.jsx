@@ -39,7 +39,7 @@ const NavBar = () => {
               fill="white"
             />
           </svg>
-          <p className="text-center justify-start text-white text-2xl">
+          <p className="text-center justify-start text-white text-lg md:text-2xl">
             Menu
           </p>
         </section>
@@ -69,28 +69,28 @@ const NavBar = () => {
           />
             <a
               href="/"
-              className="text-6xl hover:text-gray-300 transition-colors duration-300"
+              className="text-4xl md:text-6xl hover:text-gray-300 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Home
             </a>
             <a
               href="/community"
-              className="text-6xl hover:text-gray-300 transition-colors duration-300"
+              className="text-4xl md:text-6xl hover:text-gray-300 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Community
             </a>
             <a
               href="/residences"
-              className="text-6xl hover:text-gray-300 transition-colors duration-300"
+              className="text-4xl md:text-6xl hover:text-gray-300 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Residences
             </a>
             <a
               href="/register"
-              className="text-6xl hover:text-gray-300 transition-colors duration-300"
+              className="text-4xl md:text-6xl hover:text-gray-300 transition-colors duration-300"
               onClick={toggleMenu}
             >
               Register

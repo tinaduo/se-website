@@ -21,13 +21,13 @@ export default function Community() {
       <div className="flex flex-col-reverse bg-[url(/images/community/township-langley.png)] relative w-full h-[400px] md:h-[800px] bg-cover">
         <h1 className="text-white text-4xl md:text-6xl font-semibold font-['Lora'] mb-8 ml-4 shadow">Willoughby, Langley</h1>
       </div>
-      <main className="flex flex-col justify-center items-center my-20 gap-20">
-        <section className="flex flex-col justify-center items-center gap-6">
+      <main className="flex flex-col justify-center items-center my-20 gap-20 mx-6">
+        <section className="flex flex-col justify-center items-center gap-6 mx-6">
           <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora']">
             Your Community.
           </h1>
-          <p className="justify-center text-[#3D6663] text-2xl font-normal text-center font-['Poppins']">
-            Enjoy a community that places Willoughby’s best—sports, <br />{" "}
+          <p className="justify-center text-[#3D6663] text-lg md:text-2xl font-normal text-center font-['Poppins']">
+            Enjoy a community that places Willoughby’s best—sports, <br />
             nature, dining, and shopping—right at your doorstep.
           </p>
           <AccordionWithImage />
@@ -36,7 +36,7 @@ export default function Community() {
           <h1 className="justify-center text-[#3D6663] text-4xl sm:text-6xl font-semibold font-['Lora'] text-center">
             Active Living, Right at Your Doorstep.
           </h1>
-          <p className="justify-center text-[#3D6663] text-2xl font-normal text-center font-['Poppins'] w-10/12 md:w-6/12">
+          <p className="justify-center text-[#3D6663] text-lg md:text-2xl font-normal text-center font-['Poppins'] w-10/12 md:w-6/12 my-6">
             Just minutes away, the expanding Langley Events Centre and the
             upcoming Smith Athletic Park will offer ice hockey, lacrosse,
             tournaments, and outdoor fields—bringing sports, recreation, and

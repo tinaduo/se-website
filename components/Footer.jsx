@@ -17,10 +17,19 @@ const Footer = () => (
           CONTACT US
         </h3>
         <div className="flex flex-col">
-          <a href="mailto:info@landdoneright.com" className="justify-center text-white text-2xl font-normal lowercase">
+          <a
+            href="https://www.landdoneright.com"
+            className="justify-center text-white text-2xl font-normal lowercase">
+            www.landdoneright.com
+          </a>
+          <a
+            href="mailto:info@landdoneright.com"
+            className="justify-center text-white text-2xl font-normal lowercase">
             info@landdoneright.com
           </a>
-          <a href="tel:604-716-9134" className="justify-center text-white text-2xl font-normal lowercase">
+          <a
+            href="tel:604-716-9134"
+            className="justify-center text-white text-2xl font-normal lowercase">
             604-716-9134
           </a>
         </div>

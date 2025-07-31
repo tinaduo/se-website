@@ -70,6 +70,22 @@ export default function Residences() {
               Browse Rowhouse
             </a>
           </div>
+          <div className="flex flex-col gap-2">
+            <img
+              src="/images/residences/single-family/coming-soon.jpg"
+              alt="Rowhouse Residences"
+              className="w-full h-[400px] object-cover"
+            />
+            <h2 className="text-[#3D6663] text-4xl font-semibold font-['Lora'] pt-2">
+              Single-Family
+            </h2>
+            <div
+
+              className="px-6 py-1 bg-[#FBC049] rounded-full justify-center items-center text-white text-2xl sm:text-3xl font-['Poppins'] uppercase w-fit mt-4"
+            >
+              COMING SOON
+            </div>
+          </div>
         </section>
       </section>
       <section className="flex flex-col justify-center items-center mx-6 gap-11">

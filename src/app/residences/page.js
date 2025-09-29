@@ -79,12 +79,12 @@ export default function Residences() {
             <h2 className="text-[#3D6663] text-4xl font-semibold font-['Lora'] pt-2">
               Single-Family
             </h2>
-            <div
-
+            <a
+              href="/residences/single-family"
               className="px-6 py-1 bg-[#FBC049] rounded-full justify-center items-center text-white text-2xl sm:text-3xl font-['Poppins'] uppercase w-fit mt-4"
             >
-              COMING SOON
-            </div>
+              Browse Single-Family
+            </a>
           </div>
         </section>
       </section>
